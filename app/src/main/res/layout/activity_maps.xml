@@ -1,0 +1,19 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.csb.hackny.canipark.MapsActivity" >
+    <Button
+        android:id="@+id/my_button"
+        android:background="@drawable/my_button"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:text="Can I Park Here?"
+        android:padding="10dp"
+        android:layout_marginBottom="60dp"/>
+</fragment>
