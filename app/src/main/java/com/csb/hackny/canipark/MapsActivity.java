@@ -109,7 +109,7 @@ public class MapsActivity extends AppCompatActivity implements OnMyLocationButto
                                 } else if (responseNum < .25){
                                     styledText = String.format("There is a <font color='#ffcc00'>%d%%</font> chance of parking ticket.", (int) (responseNum*100));
                                     titleText = "<font color='#ffcc00'>Park at your own risk</font>";
-                                } else if (responseNum < .50){
+                                } else if (responseNum < .40){
                                     styledText = String.format("There is a <font color='#ffa500'>%d%%</font> chance of parking ticket.",(int) (responseNum*100));
                                     titleText = "<font color='#ffa500'>Parking not recommended</font>";
                                 } else {
